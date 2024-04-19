@@ -1,0 +1,20 @@
+{
+  "name": "remote-app",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --port 5189 --strictPort",
+    "serve": "vite preview --port 5189 --strictPort",
+    "build": "vite build",
+    "preview": "vite preview --port 5189 --strictPort"
+  },
+  "dependencies": {
+    "vue": "^3.4.21"
+  },
+  "devDependencies": {
+    "@originjs/vite-plugin-federation": "^1.3.5",
+    "@vitejs/plugin-vue": "^5.0.4",
+    "vite": "^5.2.0"
+  }
+}
